@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.ft_beian{
+	overflow:hidden;
+	border-top:1px #d9d5d6 solid;
+	background:#f7f7f7;
+	width:100%;
+	line-height:35px;
+	padding:10px 0;
+
+}
+
+.ft_beian .ft_nav{
+	width:auto;
+	text-align:center;
+}
+.ft_beian .ft_nav a{
+	padding:0px 20px;
+	color: #555;
+	-background:url(../../../image/top_1.png) no-repeat  left center;
+}
+.ft_beian p.banquan{
+	    border-top: 1px solid #ccc;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 5px;	
+}
+
+
+
+
+

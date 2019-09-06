@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+body,html,ul,li,div,a,h1,h2,h3,p,dl,dd,dt {
+	margin: 0px;
+	padding: 0px;
+	    font-family: "微软雅黑";
+}
+:focus {
+    outline: 0!important;
+	    font-family: "微软雅黑";
+}
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.f14 a {
+	right: 0px;
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+	color: #216DC7;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+	    font-family: "微软雅黑";
+}
+
+a:hover {
+    font-family: "微软雅黑";
+	
+}
+.ncm_user_info img{
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    border-radius: 50%;
+    width: 60px;}
+.fl {
+	float: left;
+}
+.goodsPrice{    font-size: 12px;
+    font-weight: bold;
+    /* color: #d93600; */
+    border: 1px dotted #ffd863;
+    background: #fef4b1;}
+.fr {
+float:right;
+}
+
+.fdf {
+    width: 1200px;
+}
+.f14 {
+	font-size: 14px;
+}
+
+.f16 {
+	font-size: 16px;
+}
+
+.f18 {
+	font-size: 16px;
+}
+
+.Width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+.red {
+	color: #e4393c;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: normal;
+}
+
+img {
+	border: none;
+	border: 0px;
+}
+
+.blue {
+	color: #0080FF;
+}
+input::-ms-reveal {display:none;}

@@ -1,0 +1,221 @@
+.navbar {
+    margin-bottom: 0px;
+}
+.help-block {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 11px;
+}
+#login{
+    background: #fd4062;
+    height:650px;
+}
+.loginWrap {
+    height: 550px;
+    margin: 0 auto;
+}
+.login_left h3 {
+    margin-top: 60px;
+    line-height: 125px;
+    font-size: 62px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+.login_left>p {
+    color: #fff;
+    line-height: 94px;
+    font-size: 38px;
+}
+.login_left>p:last-child {
+    font-size: 25px;
+}
+.login_right {
+    margin-top: 50px;
+    background: #fff;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #f00;
+    border:none;
+    border-bottom: 2px solid #f00;
+}
+#mynavtabs li a{
+    font-size: 18px;
+}
+/*底部开始*/
+.footer{
+    width: 100%;
+    height:280px;
+    background: #E5E3E3;
+}
+.footerCenter{
+    width:1200px;
+    height:100%;
+    margin: 0 auto;
+}
+.footer .bqsy{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.footer .list{
+    height:150px;
+}
+.footer .list ul{
+    width:150px;
+    float:left;
+    margin-top:30px;
+}
+.footer .list ul:nth-child(1){
+    margin-left: 10px;
+}
+.footer .list ul:nth-child(2){
+    margin-right:35px;
+}
+.footer .list ul li{
+    font-size:14px;
+    color:#605F5F;
+    cursor: pointer;
+}
+.footer .list ul li:nth-child(1){
+    font-size:18px;
+    margin-bottom:15px;
+    color:#2A2A2A;
+}
+.footer .list .weinxinqq{
+    padding-top:20px;
+}
+.footer .list .weinxinqq img{
+    width:30px;
+    height:30px;
+    float: left;
+    margin-right:10px;
+}
+.footer .footer-copy{
+    border-top:1px solid #ccc;
+    text-align: center;
+    color: #616060;
+    padding-top: 20px;
+}
+.qr,.qr ul img{
+    width: 73px;
+}
+/*底部结束*/
+
+.head {
+    width: 100%;
+    height: 35px;
+    background: #F1F0F0;
+}
+.head-left {
+    line-height: 35px;
+    color: #676767;
+    font-size: 15px;
+    height: 35px;
+}
+.head-right span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    right: 38px;
+    top: 5px;
+}
+.nav {
+    width: 100%;
+    height: 62px;
+    background: #fff;
+}
+
+.nav-center {
+    height: 62px;
+    overflow: hidden;
+}
+
+.nav-center .active {
+    color: #FF2A2A;
+    border-bottom: 2px solid #FF2A2A;
+}
+.nav-center ul li {
+    line-height: 45px;
+    margin-top: 10px;
+}
+.nav-center ul li a {
+    display: block;
+    color: #2A2A2A;
+    padding: 0 10px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.nav-center ul li a:hover,  .nav-center ul li a:focus {
+    color: #23527c;
+    text-decoration: none;
+}
+.programme_position {
+    background: #e7e7e7;
+    margin-bottom: 0;
+}
+.nav-right a {
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    background: #FF0000;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    margin-top: 13px;
+}
+.programme_position>div a,.programme_position>div span {
+    font-size: 12px;
+    color: #2a2a2a;
+}
+.programme_position>div span {
+    font-weight: bold;
+}
+.programme_position>div a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+/*左树导航开始*/
+#beforeLeftNav  .left_top {
+    height: 46px;
+    width: 100%;
+    line-height: 46px;
+    text-align: center;
+    background-color: #f5f5f5;
+    /*border-bottom: 1px solid #E7E7E7;*/
+    font-weight: bolder;
+}
+#beforeLeftNav  .active {
+    background: #FFC2C2;
+    color: #413939;
+    border-left: 2px solid #FF2222;
+}
+#beforeLeftNav ul li {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+#beforeLeftNav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #989898;
+}
+/*左树导航结束*/
+
+.modal-header {
+    background-color: #286090;
+    color:#fff;
+}

@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+#nav{
+	width:auto;
+	height:37px;
+	
+	background:#fff;
+    border-bottom:#1082ca 3px solid;
+	position:relative;
+}
+#nav .nav_mian{
+	height:37px;
+	margin:0 auto;
+	position:relative;
+
+}
+#nav .nav_ul{
+	position:absolute;
+	left:210px;
+	z-index:1;
+}
+#nav .nav_ul li{
+	float: left;
+	
+}
+#nav .nav_ul li a{
+	display:block;
+	height:40px;
+	line-height:40px;
+	padding:0px 20px;
+	font-size:16px;
+	text-decoration:none;
+	color:#666;
+}
+#nav .nav_ul li a:hover,#nav .nav_ul li.now a{
+	color:#1071a8;
+}
+
+
+#nav #a_sw_nav{
+	width:210px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:2;
+}
+#nav #a_sw_nav .sw_title{
+	width:auto;
+	height:40px;
+	color:#FFF;
+	font-size:16px;
+	line-height:40px;
+	background:#1082ca url(../image/nav/nav_all.png) no-repeat 10px  center;
+	padding-left:30px;
+	cursor:pointer;
+	
+}
+.sw_title a{
+	color:#FFF;
+	font-size:16px;
+}
+#nav #a_sw_nav #all_nav{
+	position:absolute;
+	left:0px;
+	top:40px;
+	width:210px;
+	height:470px;
+	background-color: rgba(0,0,0,0.8);
+    color:#fff;
+	z-index:1000;
+	padding:0px 0px 10px 0px;
+	-overflow:hidden;
+}
+#all_nav div.i_list:hover a{color:#666;}
+#all_nav div.i_list:hover div.shop_left_btn_layer_right a{color:#666;}
+#all_nav a{color:#fff;}
+#all_nav a:hover{color:#666;}
+#nav #a_sw_nav #all_nav div{}
+#nav #a_sw_nav #all_nav .i_list{
+	width:auto;
+	height:74px;
+	padding:10px;
+    position:relative;
+	border-bottom: 1px solid #303131;
+}
+#nav #a_sw_nav #all_nav .li_nbv{
+	width:4px;
+	height:94px;
+	position: absolute;
+	right:-2px;
+	top:0px;
+	z-index:400;
+	overflow:hidden;
+	display:none;
+}
+
+
+#nav #a_sw_nav #all_nav .i_list:hover{
+	background:#fff;
+}
+#nav #a_sw_nav #all_nav .i_list:hover h2{
+   color:#b22d00;  
+}
+
+#nav #a_sw_nav #all_nav .i_list h2{
+	font-size:14px;
+	margin-bottom:8px;
+	font-weight:bold;
+	-border:1px red solid;
+}
+#nav #a_sw_nav #all_nav .i_list .il{
+	height:50px;
+	line-height:24px;
+	overflow:hidden;
+}
+#nav #a_sw_nav #all_nav .i_list .il a{
+	padding-right:5px;
+	white-space:nowrap;
+}
+
+#nav #a_sw_nav #all_nav .i_list_2{
+
+}
+
+
+
+.brandsort_price_input{
+	height:24px;
+	padding-left:4px;
+}
+.brandsort_btn_com{
+	padding:3px 10px;
+	border:1px #dadada  solid;
+	border-radius:3px;
+	background:#f1f1f1;
+}
+.nav-tools-bg {
+    width: 210px;
+    height: 481px;
+    background-color: #fff;
+    opacity: .9;
+    filter: alpha(opacity=90);
+	position: absolute;
+    top: 0;
+	z-index: -1;
+}

@@ -1,0 +1,8 @@
+;(function($){$.fn.step=function(method){if(methods[method]){return methods[method].apply(this,Array.prototype.slice.call(arguments,1));}else if(typeof method==='object'||!method){return methods.init.apply(this,arguments);}else{$.error('Method '+method+' does not exist on jQuery.tooltip');}};var defStep={stepNames:['','',''],initStep:1};var methods;methods={init:function(options){if(!options){options=defStep;}else{if(!options.stepNames||typeof options.stepNames!=="object"){options.stepNames=defStep.stepNames;}
+if(!options.initStep||isNaN(options.initStep)||options.initStep<0){options.initStep=defStep.initStep;}
+if(options.initStep>options.stepNames.length){options.initStep=options.stepNames.length;}}
+var html='';html+='<ul class="progressbar">';$.each(options.stepNames,function(index,name){html+='<li';if(index<options.initStep){html+=' class="active" ';}
+html+='>';html+=name;html+='</li>';});html+='</ul>';this.empty().append(html);$(".progressbar li").css("width",100/options.stepNames.length+"%");},next:function(){var index=this.find("li.active").length;if(index==this.find("li").length){return;}
+this.find("li").eq(index).addClass("active");},previous:function(){var index=this.find("li.active").length;if(index==1){return;}
+this.find("li").eq(index-1).removeClass("active");},goto:function(step){if(step<0||step>this.find("li").length){return;}
+this.find("li").removeClass("active");var $target=this.find("li").eq(step-1);$target.addClass("active");$target.prevAll("li").addClass("active");}};}($));
